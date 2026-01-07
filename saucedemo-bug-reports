@@ -1,0 +1,151 @@
+SauceDemo QA Bug Reports
+
+This is a **junior QA portfolio** containing my findings on the demo site [SauceDemo](https://www.saucedemo.com/).  
+I tested different **user personas** and documented bugs in real scenarios.
+
+---
+
+## 1️⃣ A – Login Bug
+
+**Affected user:** `locked_out_user`  
+
+**Steps to reproduce:**
+1. Open the login page  
+2. Enter username `locked_out_user`  
+3. Enter password `secret_sauce`  
+4. Click Login  
+
+**Expected result:**  
+The user should be logged in  
+
+**Actual result:**  
+The user receives an error message and cannot log in  
+
+**Severity:** High  
+**Priority:** High
+
+---
+
+## 2️⃣ B – Product Sorting Filters Bug
+
+**Affected users:** `problem_user`, `error_user`, `visual_user`, `performance_glitch_user`
+
+**Steps to reproduce:**
+1. Log in as an affected user  
+2. Open the Products page  
+3. Click on the filter dropdown  
+4. Select sorting by Name or Price  
+
+**Expected result:**  
+Products should be sorted according to the selected filter  
+
+**Actual result:**  
+- Sorting does not apply  
+- Dropdown shows an error or is extremely slow  
+
+**Severity:** Medium  
+**Priority:** Medium
+
+---
+
+## 3️⃣ C – Add / Remove from Cart Bug
+
+**Affected users:** `problem_user`, `error_user`, `visual_user`
+
+**Steps to reproduce:**
+1. Log in as an affected user  
+2. Add multiple products to the cart  
+3. Remove products from the cart  
+4. Use “Reset App State” and return to the Products page  
+
+**Expected result:**  
+- Products can be added and removed correctly  
+- After reset, the cart is empty, and buttons reflect the state  
+
+**Actual result:**  
+- Some products cannot be added  
+- Remove buttons do not work correctly  
+- After reset, “Remove” buttons remain visible  
+
+**Severity:** High  
+**Priority:** High
+
+---
+
+## 4️⃣ D – About / Navigation Bug
+
+**Affected users:** `problem_user`, `performance_glitch_user`
+
+**Steps to reproduce:**
+1. Open the menu  
+2. Click **About**  
+
+**Expected result:**  
+The About page opens correctly  
+
+**Actual result:**  
+- 404 error for `problem_user`  
+- Does not open in a new tab or responds inconsistently for `performance_glitch_user`  
+
+**Severity:** Medium  
+**Priority:** Medium
+
+---
+
+## 5️⃣ E – Checkout Bug
+
+**Affected user:** `error_user`
+
+**Steps to reproduce:**
+1. Add a product to the cart  
+2. Click Checkout  
+3. Fill in checkout information and click Continue  
+4. On Checkout Summary page, click Finish  
+
+**Expected result:**  
+The order should be completed and a confirmation page displayed  
+
+**Actual result:**  
+Clicking Finish does nothing; the checkout process cannot be completed  
+
+**Severity:** Critical  
+**Priority:** High
+
+---
+
+## 6️⃣ F – Visual / UI Bug
+
+**Affected user:** `visual_user`
+
+**Steps to reproduce:**
+1. Open the Products page  
+2. Observe product cards, buttons, and the filter dropdown  
+3. Proceed to Checkout  
+4. Use “Reset App State” and return to the Products page  
+
+**Expected result:**  
+- UI elements properly aligned  
+- Correct product images displayed  
+- Filter works correctly  
+- Cart reflects the current state  
+
+**Actual result:**  
+- Misaligned button (6th product)  
+- Wrong product image displayed (dog instead of backpack)  
+- Filter dropdown not working  
+- Checkout layout misplaced  
+- After reset, Remove buttons remain visible  
+
+**Severity:** Low – Medium  
+**Priority:** Low – Medium
+
+---
+
+## Conclusion
+
+These bug reports demonstrate the ability to:  
+- Identify functional and visual issues  
+- Differentiate behavior across different user personas  
+- Write clear and practical QA bug reports  
+
+This collection is part of my **junior QA portfolio**.

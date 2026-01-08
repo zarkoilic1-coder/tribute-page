@@ -3,7 +3,6 @@ SauceDemo QA Bug Reports
 This is a **junior QA portfolio** containing my findings on the demo site [SauceDemo](https://www.saucedemo.com/).  
 I tested different **user personas** and documented bugs in real scenarios.
 
----
 
 ## 1️⃣ A – Login Bug
 
@@ -24,7 +23,7 @@ The user receives an error message and cannot log in
 **Severity:** High  
 **Priority:** High
 
----
+
 
 ## 2️⃣ B – Product Sorting Filters Bug
 
@@ -46,7 +45,7 @@ Products should be sorted according to the selected filter
 **Severity:** Medium  
 **Priority:** Medium
 
----
+
 
 ## 3️⃣ C – Add / Remove from Cart Bug
 
@@ -70,7 +69,7 @@ Products should be sorted according to the selected filter
 **Severity:** High  
 **Priority:** High
 
----
+
 
 ## 4️⃣ D – About / Navigation Bug
 
@@ -90,7 +89,7 @@ The About page opens correctly
 **Severity:** Medium  
 **Priority:** Medium
 
----
+
 
 ## 5️⃣ E – Checkout Bug
 
@@ -111,7 +110,7 @@ Clicking Finish does nothing; the checkout process cannot be completed
 **Severity:** Critical  
 **Priority:** High
 
----
+
 
 ## 6️⃣ F – Visual / UI Bug
 
@@ -139,7 +138,7 @@ Clicking Finish does nothing; the checkout process cannot be completed
 **Severity:** Low – Medium  
 **Priority:** Low – Medium
 
----
+
 
 ## Conclusion
 
